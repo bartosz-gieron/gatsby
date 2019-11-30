@@ -7,7 +7,6 @@ export default ({ post }) => (
             <p>{post.frontmatter.title}</p>
             <p>{post.frontmatter.description}</p>
             <span>{post.frontmatter.date}</span>
-            <p>{post.frontmatter.post}</p>
         </div>
     </Link>
 )
